@@ -1,0 +1,15 @@
+{
+  "name": "Quora Word Count",
+  "version": "0.1",
+  "author": "Christopher Su",
+  "homepage_url": "https://github.com/csu/quora-word-count",
+  "description": "Adds word count to the Quora answer editor.",
+  "content_scripts": [
+    {
+      "matches": ["*://*.quora.com/*"],
+      "js": ["jquery-1.11.1.min.js", "word-count.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "manifest_version": 2
+}
