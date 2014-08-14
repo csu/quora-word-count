@@ -7,7 +7,7 @@
   "content_scripts": [
     {
       "matches": ["*://*.quora.com/*"],
-      "js": ["jquery-1.11.1.min.js", "word-count.js"],
+      "js": ["jquery-1.11.1.min.js", "word-count.min.js"],
       "run_at": "document_end"
     }
   ],

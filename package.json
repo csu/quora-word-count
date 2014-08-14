@@ -1,0 +1,25 @@
+{
+  "name": "quora-word-count",
+  "version": "0.1.0",
+  "description": "A Chrome extension to add word counts to the Quora answer editor.",
+  "main": "word-count.js",
+  "devDependencies": {
+    "gulp": "~3.8.7",
+    "gulp-uglify": "~0.3.1",
+    "gulp-rename": "^1.2.0",
+    "gulp-zip": "^1.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/csu/quora-word-count.git"
+  },
+  "author": "Christopher Su",
+  "license": "GPL",
+  "bugs": {
+    "url": "https://github.com/csu/quora-word-count/issues"
+  },
+  "homepage": "https://github.com/csu/quora-word-count"
+}
