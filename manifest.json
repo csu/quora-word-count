@@ -1,6 +1,6 @@
 {
   "name": "Q Word Count",
-  "version": "0.1",
+  "version": "0.2",
   "author": "Christopher Su",
   "homepage_url": "https://github.com/csu/quora-word-count",
   "description": "Adds word count to the Quora answer editor.",
